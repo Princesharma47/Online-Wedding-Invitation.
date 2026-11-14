@@ -71,27 +71,27 @@ const petals = Array.from({ length: 16 }, (_, i) => ({
 
 const venuePhotos = [
   {
-    src: "/venue5.jpg",
+    src: "./venue5.jpg",
     alt: "JP Marriage Hall - Grand stage with floral decor",
   },
   {
-    src: "/venue1.jpg",
+    src: "./venue1.jpg",
     alt: "JP Marriage Hall - Floral decorated entry passage",
   },
   {
-    src: "/venue2.jpg",
+    src: "./venue2.jpg",
     alt: "JP Marriage Hall - Outdoor decorated seating area",
   },
   {
-    src: "/venue3.jpg",
+    src: "./venue3.jpg",
     alt: "JP Marriage Hall - Indoor decorated corridor with lights",
   },
   {
-    src: "/venue4.jpg",
+    src: "./venue4.jpg",
     alt: "JP Marriage Hall - Building exterior with lights",
   },
   {
-    src: "/venue6.jpg",
+    src: "./venue6.jpg",
     alt: "JP Marriage Hall - Spacious indoor reception hall",
   },
 ];
@@ -168,7 +168,7 @@ export default function App() {
 
   return (
     <div className="page">
-      <audio ref={audioRef} src="/wedding-music.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="./wedding-music.mp3" loop preload="auto" />
 
       {opened && (
         <button
@@ -255,7 +255,7 @@ export default function App() {
         <div className="photo-wrap section-fade">
           <img
             className="photo"
-            src="/couple-poster.png"
+            src="./couple-poster.png"
             alt="Sumit and Nisha wedding portrait"
             onError={(event) => {
               event.currentTarget.onerror = null;
