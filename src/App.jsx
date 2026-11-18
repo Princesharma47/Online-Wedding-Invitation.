@@ -10,7 +10,7 @@ const D = {
   groomFamily: [
     "SON OF",
     "MR. SHANKAR SAHAY",
-    "MRS. INDU SAHAI",
+    "MRS. INDU SAHAY",
     "ROHTAS",
   ],
   brideFamily: [
